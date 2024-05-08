@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import "./register.css";
 import { Link } from "react-router-dom";
 
-export const FormUserRegister = () => {
+export const register = () => {
   const [validated, setValidated] = useState(false);
   const [errorSignUp, setErrorSignUp] = useState(false);
   const [errorPassword, setErrorPassword] = useState(false);
