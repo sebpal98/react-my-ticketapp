@@ -1,0 +1,82 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url("src/assets/background.jpg"); */
+  background-color: rgba(0, 0, 0, 0.68);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  filter: brightness(90%);
+  position: fixed;
+  font-size: 20px;
+}
+
+.login-space {
+  width: 50%;
+  padding: 5vh 5vw;
+  color: black;
+  background: rgba( 255, 255, 255, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 12.5px );
+  -webkit-backdrop-filter: blur( 12.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.welcome {
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  background-color: rgb(28, 167, 241);
+  height: 13vh;
+  color: white;
+  align-items: center;
+  
+  margin-bottom: 5vh;
+}
+
+.welcome h1 {
+  border: 10px rgb(180, 30, 30);
+  margin-bottom: 2vh;
+}
+
+.formulary-field{
+  padding: 2vh;
+}
+
+#text-muted {
+  color: black;
+}
+
+#login-button {
+  position: relative;
+  left: 35%;
+  width: 60%;
+  transform: translateX(-50%);
+  font-size: 2rem; /* Adjust the font size as needed */
+  padding: 12px 24px; /* Adjust the padding as needed */
+}
+
+.secondary-options {
+  font-size: rem;
+}
+
+#forgot-password-text {
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  color: black;
+}
+
+#signup-text {
+  color:black;
+}
+
+#privacy {
+  color: black;
+  font-size: 0.9rem;
+}
+
+#login-text {
+  color: black;
+}
